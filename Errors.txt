@@ -1,0 +1,4 @@
+ERRORS
+
+1. Program did not take off score 3 on iglooScore2. Changed the code so that it took it out instead of score1.
+2.In IglooScore2 there was a check to see if there weren't enough arguments. There was a redundant check for the arguments. args == NULL that I deleted. If args.length != 3 that will include args == NULL .
